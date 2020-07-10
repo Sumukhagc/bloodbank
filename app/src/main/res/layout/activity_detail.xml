@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@drawable/login">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+     />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/image"
+        android:src="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/text"
+       android:layout_below="@+id/image"
+       android:paddingTop="24dp"
+       android:textSize="30dp"
+       android:layout_centerHorizontal="true"
+       android:textStyle="bold"
+       android:textColor="#0000ff"
+       />
+
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL NOW"
+        android:textColor="#131313"
+        android:background="#FFEB3B"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:layout_marginTop="45dp"
+        />
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:text="Message"
+        android:textColor="#131313"
+        android:background="#FFEB3B"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:layout_marginTop="25dp"
+        />
+
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
